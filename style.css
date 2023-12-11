@@ -1,0 +1,30 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-color{
+    background-color: red !important;
+}
+
+.banner{
+    height: 60vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/236x/f0/27/ec/f027ec6bb49f0dbd6b629311f34c1071.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hovered-card{
+    transition: .3s;
+}
+
+.hovered-card:hover{
+    transform: scale(1.1);
+}
+
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: #fff;
+}
